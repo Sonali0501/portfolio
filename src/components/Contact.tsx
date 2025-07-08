@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
   return (
     <section id="contact" className="py-20 bg-slate-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center space-y-4 mb-16">
+        <div className="text-center space-y-4 mb-8 lg:mb-16">
           <h2 className="text-3xl lg:text-4xl font-semibold text-cream-100">
             Let's Work Together
           </h2>
@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
               key={contact.label}
               href={contact.href}
               target="_blank"
-              className="text-sm lg:text-lg text-cream-100 hover:text-emerald-400 transition-colors duration-200"
+              className="text-sm lg:text-lg text-cream-100 hover:text-emerald-400 transition-colors duration-200 w-full lg:w-fit"
             >
               <div className="flex items-center flex-shrink-0 p-4 bg-slate-800 rounded-xl shadow-sm border border-slate-700 w-full">
                 <contact.icon className="h-7 w-7 text-emerald-400 mr-4" />
