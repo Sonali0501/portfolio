@@ -11,7 +11,7 @@ const Blog: React.FC = () => {
         "Understand when to choose microfrontends, monorepos, or both — based on performance, team structure, and tooling",
       date: "2024-07-05",
       readTime: "4 min read",
-      image: "src/assets/frontend_architecture_blog_thumbnail.png",
+      image: "./frontend_architecture_blog_thumbnail.png",
       category: "Frontend Architecture",
     },
     {
@@ -22,7 +22,7 @@ const Blog: React.FC = () => {
         "By focusing on simplicity, you can build software that’s faster to develop, easier to maintain, and more enjoyable to use.",
       date: "2024-01-29",
       readTime: "4 min read",
-      image: "src/assets/overengineering_trap_blog_thumbnail.png",
+      image: "./overengineering_trap_blog_thumbnail.png",
       category: "Software Development",
     },
     {
@@ -33,7 +33,7 @@ const Blog: React.FC = () => {
         "By understanding Fiber’s architecture, developers can optimize apps for smoother UX, better error handling, and future-ready performance.",
       date: "2024-03-26",
       readTime: "3 min read",
-      image: "src/assets/react_fiber_blog_thumbnail.png",
+      image: "./react_fiber_blog_thumbnail.png",
       category: "React",
     },
     {
@@ -43,7 +43,7 @@ const Blog: React.FC = () => {
         "Remember that prevention is better than cure — adopting clean-up patterns early in your development process will save you from memory-related headaches down the road.",
       date: "2023-06-12",
       readTime: "3 min read",
-      image: "src/assets/memory_leaks_blog_thumbnail.png",
+      image: "./memory_leaks_blog_thumbnail.png",
       category: "Performance",
     },
   ];
